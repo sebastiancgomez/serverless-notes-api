@@ -1,0 +1,5 @@
+[run]
+omit =
+    */main.py
+    */lambda_handler.py
+    */models.py
