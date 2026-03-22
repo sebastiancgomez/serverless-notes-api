@@ -117,6 +117,21 @@ Authorization: Bearer <JWT_TOKEN>
 
 ---
 
+## 🧪 Testing with Postman
+
+A ready-to-use Postman collection is available in the `/postman` folder.
+
+Import it into Postman and run the requests in this order:
+1. **Auth** — obtains a JWT token automatically saved as `{{token}}`
+2. **Create** — creates a new note
+3. **Notes** — lists your notes
+4. **GET by ID** — retrieves a specific note
+5. **Delete** — deletes a note
+
+No manual token configuration needed — authentication is handled automatically.
+
+---
+
 ## 🛡️ Authorization Rules
 
 | Action | User | Admin |
