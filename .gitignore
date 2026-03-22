@@ -8,3 +8,8 @@ coverage.xml
 test.db
 *.log
 .vscode/
+.coverage
+lambda.zip
+lambda_old.zip
+package/
+test-zip/
